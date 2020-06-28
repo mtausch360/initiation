@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 function Login (props: { setToken: Function }) {
-  const [payload, setPayload] = useState({username: "initiate", password: "illuminated"});
+  const [payload, setPayload] = useState({username: "", password: ""});
 
   const [isLoading, setIsLoading] = useState(false);
 

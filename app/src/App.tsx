@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Button, Form, FormGroup, Label, Input, Card, CardBody, Spinner } from 'reactstrap';
 import Login from './Login';
 import Dashboard from './Dashboard';
 
